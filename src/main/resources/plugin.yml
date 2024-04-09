@@ -1,8 +1,8 @@
-version: 1.9.5
-name: Companions
-main: me.astero.companions.CompanionsPlugin
+main: ${project.groupId}.companions.CompanionsPlugin
+name: ${project.name}
+description: ${project.description}
+version: ${project.version}
 author: Astero
-description: Create & fully customize your own companions, then allow players to buy it!
 api-version: 1.13
 softdepend: [Vault, PlaceholderAPI, CompanionsAPI]
 commands:   
